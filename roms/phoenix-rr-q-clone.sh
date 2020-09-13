@@ -7,3 +7,6 @@ git clone https://github.com/ResurrectionRemix-Devices/vendor_xiaomi_phoenix -b 
 git clone https://github.com/ResurrectionRemix-Devices/kernel_xiaomi_phoenix -b ten kernel/xiaomi/phoenix
 git clone https://github.com/revanth-24/vendor_aeonax_ANXCamera vendor/aeonax/ANXCamera
 git clone https://gitlab.com/revanth-24/platform_vendor_pixelgapps vendor/pixelgapps --depth=5
+rm -rf frameworks/native  hardware/qcom-caf/sm8150/display
+git clone https://github.com/ResurrectionRemix/android_hardware_qcom_display hardware/qcom-caf/sm8150/display
+git clone https://github.com/ResurrectionRemix/frameworks_native -b Q-sm8150 frameworks/native
